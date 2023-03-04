@@ -1,4 +1,4 @@
-module.exports=dbConnect; 
+
 
 var MongoClient = require('mongodb').MongoClient;
 
@@ -12,3 +12,4 @@ async function dbConnect() {
     return await db.collection('test');
 
 }
+module.exports=dbConnect; 
